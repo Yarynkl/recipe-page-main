@@ -1,0 +1,106 @@
+/* Fonts */
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(24, 5%, 18%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Card */
+.recipe-card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  max-width: 740px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Image */
+.recipe-image {
+  width: 100%;
+  display: block;
+}
+
+/* Content */
+.recipe-content {
+  padding: 2rem;
+}
+
+.recipe-title {
+  font-family: 'Young Serif', serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.recipe-description {
+  margin-bottom: 2rem;
+  color: hsl(30, 10%, 34%);
+}
+
+/* Sections */
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-family: 'Young Serif', serif;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: hsl(14, 45%, 36%);
+}
+
+/* Prep time box */
+.prep-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.prep-time h2 {
+  color: hsl(332, 51%, 32%);
+}
+
+.prep-time ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.prep-time li {
+  margin-bottom: 0.5rem;
+}
+
+/* Ingredients & Instructions */
+.ingredients ul,
+.instructions ol {
+  padding-left: 1.5rem;
+}
+
+.ingredients li,
+.instructions li {
+  margin-bottom: 0.5rem;
+}
+
+/* Nutrition table */
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition td {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition td:first-child {
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition td:last-child {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
